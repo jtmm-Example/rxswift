@@ -11,6 +11,7 @@ pod 'Moya'
 pod 'Moya/RxSwift'
 pod 'HandyJSON'
 pod 'RxCocoa'
+pod 'SnapKit'
 
   target 'RxSwiftDemoTests' do
     inherit! :search_paths

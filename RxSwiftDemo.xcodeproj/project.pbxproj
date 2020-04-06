@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1132EF5624387022003A44CB /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132EF5524387022003A44CB /* Toast.swift */; };
+		1132EF5824389151003A44CB /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132EF5724389151003A44CB /* API.swift */; };
+		1132EF5A24389C03003A44CB /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132EF5924389C03003A44CB /* NetWorkManager.swift */; };
+		1132EF62243A3939003A44CB /* TableviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132EF61243A3939003A44CB /* TableviewViewController.swift */; };
+		1132EF65243A3A28003A44CB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132EF63243A3A28003A44CB /* TableViewCell.swift */; };
+		1132EF66243A3A28003A44CB /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1132EF64243A3A28003A44CB /* TableViewCell.xib */; };
+		1132EF68243A3E8A003A44CB /* cellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132EF67243A3E8A003A44CB /* cellModel.swift */; };
+		1132EF6A243A754F003A44CB /* TableviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132EF69243A754F003A44CB /* TableviewViewModel.swift */; };
+		1132EF6C243A7DDA003A44CB /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1132EF6B243A7DDA003A44CB /* LoginViewModel.swift */; };
 		7793102921946E343132600D /* Pods_RxSwiftDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 749892137D292E0DAAADF5C1 /* Pods_RxSwiftDemo.framework */; };
 		A5E902D724371CA9005DCCFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E902D624371CA9005DCCFA /* AppDelegate.swift */; };
 		A5E902DB24371CA9005DCCFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5E902DA24371CA9005DCCFA /* ViewController.swift */; };
@@ -29,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1132EF5524387022003A44CB /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		1132EF5724389151003A44CB /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		1132EF5924389C03003A44CB /* NetWorkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
+		1132EF61243A3939003A44CB /* TableviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableviewViewController.swift; sourceTree = "<group>"; };
+		1132EF63243A3A28003A44CB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		1132EF64243A3A28003A44CB /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		1132EF67243A3E8A003A44CB /* cellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cellModel.swift; sourceTree = "<group>"; };
+		1132EF69243A754F003A44CB /* TableviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableviewViewModel.swift; sourceTree = "<group>"; };
+		1132EF6B243A7DDA003A44CB /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		314055D73306C8D90857B28C /* Pods_RxSwiftDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		749892137D292E0DAAADF5C1 /* Pods_RxSwiftDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B825CF18D0ADBC6F128A640 /* Pods-RxSwiftDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftDemoTests.release.xcconfig"; path = "Target Support Files/Pods-RxSwiftDemoTests/Pods-RxSwiftDemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -102,13 +120,22 @@
 		A5E902D524371CA9005DCCFA /* RxSwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1132EF5524387022003A44CB /* Toast.swift */,
 				A5E902D624371CA9005DCCFA /* AppDelegate.swift */,
 				A5E902DA24371CA9005DCCFA /* ViewController.swift */,
+				1132EF6B243A7DDA003A44CB /* LoginViewModel.swift */,
+				1132EF61243A3939003A44CB /* TableviewViewController.swift */,
+				1132EF69243A754F003A44CB /* TableviewViewModel.swift */,
+				1132EF67243A3E8A003A44CB /* cellModel.swift */,
+				1132EF63243A3A28003A44CB /* TableViewCell.swift */,
+				1132EF64243A3A28003A44CB /* TableViewCell.xib */,
 				A5E902F824372011005DCCFA /* LibImpot.swift */,
 				A5E902DC24371CA9005DCCFA /* Main.storyboard */,
 				A5E902DF24371CB4005DCCFA /* Assets.xcassets */,
 				A5E902E124371CB4005DCCFA /* LaunchScreen.storyboard */,
 				A5E902E424371CB4005DCCFA /* Info.plist */,
+				1132EF5724389151003A44CB /* API.swift */,
+				1132EF5924389C03003A44CB /* NetWorkManager.swift */,
 			);
 			path = RxSwiftDemo;
 			sourceTree = "<group>";
@@ -216,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5E902E324371CB4005DCCFA /* LaunchScreen.storyboard in Resources */,
+				1132EF66243A3A28003A44CB /* TableViewCell.xib in Resources */,
 				A5E902E024371CB4005DCCFA /* Assets.xcassets in Resources */,
 				A5E902DE24371CA9005DCCFA /* Main.storyboard in Resources */,
 			);
@@ -299,9 +327,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1132EF62243A3939003A44CB /* TableviewViewController.swift in Sources */,
 				A5E902F924372011005DCCFA /* LibImpot.swift in Sources */,
+				1132EF5624387022003A44CB /* Toast.swift in Sources */,
+				1132EF5A24389C03003A44CB /* NetWorkManager.swift in Sources */,
 				A5E902DB24371CA9005DCCFA /* ViewController.swift in Sources */,
+				1132EF65243A3A28003A44CB /* TableViewCell.swift in Sources */,
+				1132EF6A243A754F003A44CB /* TableviewViewModel.swift in Sources */,
 				A5E902D724371CA9005DCCFA /* AppDelegate.swift in Sources */,
+				1132EF6C243A7DDA003A44CB /* LoginViewModel.swift in Sources */,
+				1132EF68243A3E8A003A44CB /* cellModel.swift in Sources */,
+				1132EF5824389151003A44CB /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

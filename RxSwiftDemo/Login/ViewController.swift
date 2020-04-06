@@ -25,12 +25,14 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         title = "Home"
         view.backgroundColor = UIColor.white
-
+        
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "list", style: .plain, target: self, action: #selector(listAction))
        bindViewModel()
     }
     
     func bindViewModel() {
+        
+        //TODO: .retry() 不起作用，待研究。。。
         loginViewModel.resultCommond
         .asObserver()
         .retry()
@@ -52,6 +54,10 @@ class ViewController: UIViewController {
         
         let par: [String : Any] = ["loginname":username ?? "", "loginpwd":password ?? "", "userFlage":"1","terminalType": "1"]
         loginViewModel.loginCommond.onNext(par)
+        
+//        loginViewModel.rxMoyaParvider(parameter: par) { (success) in
+//            print(success)
+//        }
     }
     
     
